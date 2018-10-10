@@ -1,0 +1,14 @@
+C:\train\final\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.deps.json
+C:\train\final\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.json
+C:\train\final\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.runtimeconfig.dev.json
+C:\train\final\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.dll
+C:\train\final\DatingApp.API\bin\Debug\netcoreapp2.1\DatingApp.API.pdb
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csprojAssemblyReference.cache
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.csproj.CoreCompileInputs.cache
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cache
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorAssemblyInfo.cs
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfoInputs.cache
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.AssemblyInfo.cs
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.RazorTargetAssemblyInfo.cache
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.dll
+C:\train\final\DatingApp.API\obj\Debug\netcoreapp2.1\DatingApp.API.pdb
