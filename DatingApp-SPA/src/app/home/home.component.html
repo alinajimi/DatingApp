@@ -1,0 +1,13 @@
+<div  class="text-center">
+  <p class="lead">Welcome to Best Dating App Ever</p>
+  
+  <p  class="text-center">
+    <a class="btn btn-primary btn-lg" href="#" (click)="register()" role="button">register</a>
+  </p>
+</div>
+<div *ngIf="!showRegister" class="container">
+  <div class="row justify-content-center">
+      <app-register   (showRegister)="hideRegister($event)" ></app-register>
+  </div>
+
+</div> 
