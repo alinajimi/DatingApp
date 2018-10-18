@@ -1,5 +1,7 @@
+import { AuthService } from './../_services/auth.service';
+import { AlertifyService } from './../_services/alertify.service';
 import { Component, OnInit } from '@angular/core';
-import { AuthService } from '../_services/auth.service';
+
 import { retry } from 'rxjs/operators';
 
 @Component({
@@ -9,29 +11,25 @@ import { retry } from 'rxjs/operators';
 })
 export class NavComponent implements OnInit {
 model: any = {};
-  constructor( private auth: AuthService) { }
+  constructor( private auth: AuthService , private alertify: AlertifyService) { }
 
   ngOnInit() {
   }
   isLoggedIn() {
-  const token=localStorage.getItem('token');
-  if( token) {
-    return true;
-  }
-  return false;
+ return !this.auth.isLoggedIn();
   }
   login() {
     this.auth.login(this.model).subscribe( next => {
 
-      console.log('logged in');
+     this.alertify.success('logged in successfully');
     } , error => {
 
-      console.log(error);
+      this.alertify.error(error)
     });
   }
   logOut() {
     localStorage.removeItem('token');
-  console.log('logged out');
+    this.alertify.message('logged out successfully');
   }
 
 }
